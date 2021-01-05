@@ -45,6 +45,7 @@ function parseLog(input) {
     //     throw new Error("Log's events must be an array");
     // msg_index: msg_index,
     //     log: log,
+    const { events } = input;
     return {
         events: events.map(parseEvent),
     };
