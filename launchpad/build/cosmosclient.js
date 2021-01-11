@@ -116,7 +116,7 @@ class CosmosClient {
                 // balance: value.coins,
                 // pubkey: lcdapi_1.normalizePubkey(value.public_key) || undefined,
                 accountNumber: lcdapi_1.uint64ToNumber(value.account_number),
-                sequence: lcdapi_1.uint64ToNumber(value.sequence) ? lcdapi_1.uint64ToNumber(value.sequence) : 1,
+                sequence: lcdapi_1.uint64ToNumber(value.sequence)
             };
         }
     }
